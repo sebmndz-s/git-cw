@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sebastián Méndez Sánchez">
+    <meta name="description" content="Descripción de código">
+
+    <title>Descripción de código</title>
+    
+
+</head>
+<body>
+    <h1>Explicando código c</h1>
+    <h2>Código</h2>
+    <p>Se muestra el código para explicar</p>
+
+<pre><code>
+#include &lt;stdio.h&gt;
+
+
+    int main() 
+    {
+        int edad;
+        printf("¿Cuántos años tienes? ");
+        scanf("%d", &edad);
+
+
+        if (edad >= 18) {
+            printf("Eres mayor de edad.\n");
+        } else {
+            printf("Eres menor de edad.\n");
+        }
+
+
+    return 0;
+    }
+</code></pre>
+
+    <hr>
+
+    <h2>Explicación del código</h2>
+
+    <h3>1. Librebrías y función principal</h3>
+    <p>#include &lt;stdio.h&gt; <br> En esta línea importa la librería estándar de entrada y salida, permite usar printf y scanf.</p>
+    <p>int main() <br> Es la función principal donde el sistema inicia la ejecución del programa.</p>
+    <p>{} <br> lo que esta en las llaves, en general todo eso es nuestro cuerpo de la función.</p>
+
+    <h3>2. Variables y lectura de datos</h3>
+    <p>int edad; <br> Declara una variable de tipo entero para almacenar los años que introduzca el usuario.</p>
+    <p>printf y scanf <br> El comando printf muestra la pregunta en la pantalla, el scanf lee el valor ingresado por el teclado, en este caso lo guarda en la variable edad.</p>
+
+    <h3>3. Cuerpo de la función</h3>
+    <p>if (edad >= 18) <br> Esto es una condicional, evalúa si el valor de la edad es mayor o igual a 18. Si se cumple esta condición, el programa imprimirá en la pantalla que la persona es mayor de edad.</p>
+    <p>else <br> Si la condición anterior no se cumple (si es menor de 18), se ejecuta lo que está dentro de este bloque e imprime que es menor de edad.</p>
+    <p>return 0; <br> Indica que el programa finalizó su ejecución sin ningún error.</p>
+
+</body>
+</html>
