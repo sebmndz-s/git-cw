@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpport" content ="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Méndez Sánchez Sebastián">
+    <meta name="description" content="">
+
+    <title>Mi primera página web</title>
+    <style>
+        table, th, td{
+            border:1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+
+    <table>
+        <caption>Etiquetas HTML - mi referencia</caption>
+        <colgroup>
+            <col style="width:30%">
+            <col style="width:30%">
+            <col style="width:40%">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Etiqueta</th>
+                <th scope="col">Para que sirve</th>
+                <th scope="col">Ejemplo mínimo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>&lt;table&gt;</td><td>Sirve para hacer una tabla</td>
+                <td><pre><code>&lt;table&gt;<br>   &lt;caption&gt;sebastian&lt;/caption&gt;<br>    &lt;thead&gt;<br>    &lt;tbody&gt;<br>    &lt;tfoot&gt;<br>&lt;/table&gt;</code></pre></td></tr>
+
+            <tr><td>&lt;th&gt;</td><td>Sirve para definir celda de la tabla</td>
+                <td><pre><code>  &lt;th scope="col">#&lt;/th&gt;<br>  &lt;th scope="col">Ejemplo&lt;/th&gt;</code></pre></td></tr>
+
+            <tr><td>&lt;thead&gt;</td><td>Agrupa las filas de encabezado de la tabla</td>
+                <td><pre><code>   &lt;thead&gt;<br>     &lt;tr&gt;<br>       &lt;th scope="col">Dua&lt;/th&gt;<br>       &lt;th scope="col">Lipa&lt;/th&gt;<br>     &lt;/tr&gt;<br>   &lt;/thead&gt;</code></pre></td></tr>
+            <tr><td>"caption"</td><td>Sirve para darle título</td>
+                <td><pre><code>  &lt;caption>Sebastián Méndez&lt;/caption&gt;</code></pre></td></tr>
+            <tr><td>"ol"</td><td>Sirve para hacer listas ordenadas</td>
+                <td><pre><code>&lt;ol&gt;<br>   &lt;li&gt;Bañarme&lt;/li&gt;<br>   &lt;li&gt;Alistarme&lt;/li&gt;<br>   &lt;li&gt;Prepararme para mi clase&lt;/li&gt;<br>&lt;/ol&gt;</code></pre></td></tr>
+
+        </tbody>
+    </table>
+    <form>
+        <fieldset>
+            <label for="nombre">Introduce tu nombre</label>
+            <input type="nombre" id="text">
+            <br>
+            <label for="apellido">Introduce tu apellido materno</label>
+            <input type="apellido" id="text">
+            <br>
+            <label for="correo" required>Introduce tu correo</label>
+            <input type="correo" type="email">
+            <button type="submit">inscribirse</button>
+        </fieldset>
+    </form>
+    <h3>Continuará...</h3>
+
+</body>
+</html>
